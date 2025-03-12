@@ -1,5 +1,5 @@
 <?php 
-header("content-type application/json");
+header("content-type, application/json");
 require("config.php");
 $method = $_SERVER["REQUEST_METHOD"];
 switch ($method) {
